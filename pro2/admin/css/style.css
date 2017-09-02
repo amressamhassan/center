@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+=     00   00 00 00   00 00 00   00 00 00   00 00 00   00 00    =
+=     00   00    00        00    00    00   00    00   00       =
+=     00   00    00      00      00    00   00    00   00       =
+=     00   00    00    00        00    00   00    00   00       =
+=  00 00   00 00 00   00 00 00   00 00 00   00 00 00   00       =
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+ */
+
+.col-sm-8{
+	float: right;
+}
+/* Regular */
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('../font/JF-Flat-regular.eot');
+    src: url('../font/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('../font/JF-Flat-regular.woff') format('woff'),
+    url('../font/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background: #fff;
+	scrollbar-face-color: #b46868;
+	font-family: "JF Flat Regular";
+	 overflow-x:hidden;
+	direction:rtl;
+	height: 100%;
+	}
+	
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "JF Flat Regular";
+	font-weight: 100;
+	color: #aaa;
+	}
+	
+ul {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+li {
+	list-style: none;
+	}
+
+	
+p {
+	color: #939393;
+	font-family: "JF Flat Regular";
+	font-weight:300;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none !important;
+	transition: all 0.4s ease 0s;
+	font-family: "JF Flat Regular";
+	font-weight: 300;
+	outline: 0px !important;				
+}
+
+.container {
+	max-width: 1200px;
+	}
+	
+ /***********************
+ ******  Colors *********
+ *************************/
+
+.blue {
+	background: #428bca;
+	color:#fff;
+}	
+ 
+.red {
+	background: #e51400;
+	color:#fff;
+}
+
+.megan {
+	background: #ff0097;
+	color:#fff;
+}
+
+.sun {
+	background: #f1c40f;
+	color:#fff;
+}	
+
+.wisteria{
+	background: #8e44ad;
+	color:#fff;
+}
+.concrete{
+	background: #95a5a6;
+	color:#fff;
+}
+.timetable {
+	width: 100%;
+	overflow:scroll;
+	overflow-x:auto;
+}
+.timetable table {
+width: 100%;
+}
+.timetable td {
+ 
+	height: 20px;
+	padding: 2px 0px;
+	 
+	font-weight:bold;
+}
+.timetable tr {
+	padding:0px;
+	height: 50px;
+}
+
+ 
+.room td
+{
+	
+}
+
+	/*			End h-recent-work			*/
+	
+.search_input {
+	width: 80%;
+	height: 100px;
+}
+
+.page-title {
+	width: 100%;
+	height: auto;
+	padding: 10px 0px;
+	background: #2e8bcc;
+	color: #fff;
+	}
+	
+.page-title h1 {
+	font-size: 36px;
+	color: #fff;
+	font-weight: 100 !important;
+	margin-top: 12px;
+	
+	}
+.menu{
+		background:#2E8BCC;
+		padding:12px;
+		color:#ffffff;
+		cursor: pointer;
+	font-size: 18px;
+	margin-top:8px;
+	}
+ 
+.menu a{
+		color:#ffffff;
+	}
+.menu a:hover{
+		color:#000;
+	}
+#open_slide{
+	float: left;
+	cursor: pointer;
+	font-size: 22px;
+}
+.contant_list li {
+	
+	margin:8px;
+}
+.contant_list li:hover {
+ 
+	margin:8px;
+}
+.sitting textarea {
+	width: 70%;
+}
+.form-signin{
+	width: 60%;
+	margin-top: 50px;
+	
+}
+ 
+.form-signin .form-control
+{
+	height: 70px;
+	font-size: 22px;
+} 
+.header_top
+{
+	background:#000000;
+	color:#FFFFFF;
+	padding:10px;
+	
+}
+.student_img{
+	float: left;
+	margin-left:20px;
+}
+ 
+ #time{
+ 	font-size:20px;
+ 	opacity: .8;
+ }
+ 
+   #registration_form  input,select{
+      width: 200px;
+      height: 50px;
+      padding: 5px;
+      margin: 15px 0;
+    }
+  
